@@ -1,0 +1,107 @@
+.header {
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-height: 50px;
+}
+.logo {
+  font: 800 40px/50px "Gilroy800";
+  text-transform: uppercase;
+  color: var(--black-1);
+}
+
+.navBar {
+  display: flex;
+  gap: 50px;
+}
+.navLinks {
+  font: 600 18px/21px "Gilroy600";
+  color: var(--black-2);
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.startBlock {
+  display: flex;
+  gap: 60px;
+}
+
+.languageBlock {
+  display: flex;
+  gap: 15px;
+}
+
+.languages {
+  font: 600 16px/19px "Gilroy600";
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--silver-1);
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.startBtn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  & > img {
+    transition: 0.5s;
+  }
+  &:hover > img {
+    transform: translateX(10px);
+  }
+}
+.startText {
+  font: 800 16px/20px "Gilroy800";
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--blue);
+}
+
+.activeDot {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  color: var(--blue);
+  &::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: blue;
+    height: 4px;
+    width: 4px;
+    bottom: -0.5em;
+    left: 50%;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.dotsBlock {
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 922px) {
+  .header {
+    padding: 40px;
+  }
+  .navBar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  .startBlock {
+    display: none;
+  }
+  .dotsBlock {
+    display: block;
+  }
+}

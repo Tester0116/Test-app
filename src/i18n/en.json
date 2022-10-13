@@ -1,0 +1,46 @@
+{
+  "translation": {
+    "projects": "Projects",
+    "about_company": "About the company",
+    "contacts": "Contacts",
+    "start_project": "Start the project",
+    "services": "Services",
+    "company": "Company",
+    "suppNDev": "Support and development",
+    "prodDesign": "UI/UX and product design",
+    "pwa": "Progressive Web Applications (PWA)",
+    "rightsReserved": "Company 2022. All rights reserved.",
+    "privacy_policy": "Privacy Policy",
+    "downTPresent": "Download the presentation",
+    "breadCrumbs": "Home - Contacts",
+    "title": "We are close",
+    "description": "Fill out the form below and we will contact you. Don't like shapes? Write to us by email",
+    "name": "Your name",
+    "email": "Your E-Mail",
+    "comment": "Comment",
+    "agree": "I agree with the",
+    "agree_privacy_policy": "Privacy Policy",
+    "send": "Send",
+    "sended": "Your message has been sent!",
+
+    "form": {
+      "validation": {
+        "required": "{{ field }} обязательно",
+        "min_1": "Минимум {{ count }} символа",
+        "min_2": "Минимум {{ count }} символов",
+        "max_1": "Максимум {{ count }} символа",
+        "max_2": "Максимум {{ count }} символов",
+        "password": "Минимум 6 символов, одна цифра, большая и маленькая буквы",
+        "passwordConfirm": "Пароли должны совпадать",
+        "birthdate": "Формат даты рождения ДД-ММ-ГГГГ",
+        "phone": "Формат номера телефона неверный"
+      },
+      "field": {
+        "firstName": "Имя",
+        "lastName": "Фамилия",
+        "password": "Пароль",
+        "passwordConfirm": "Подтвердите пароль"
+      }
+    }
+  }
+}

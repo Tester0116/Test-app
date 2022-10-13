@@ -1,0 +1,44 @@
+:root {
+  /* App Block-sizes */
+  --container-width: 1152px;
+
+  /* App Colors */
+  --black-1: #303030;
+  --black-2: #282828;
+  --black-3: #343434;
+  --blue: #388af3;
+  --red: #d62c54;
+  --silver-1: #979bad;
+  --silver-2: #ccc;
+  --silver-3: #e2e2e2;
+  --silver-4: #d3d3d3;
+
+  --gray: #6d6d6d;
+  --white: #fff;
+
+  /* App Fonts */
+  --main-font: "Gilroy400";
+  --second-font: "Circe";
+}
+
+@media screen and (max-width: 1920px) {
+  :root {
+    --container-width: 1152px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  :root {
+    --container-width: 90%;
+  }
+}
+@media screen and (max-width: 922px) {
+  :root {
+    --container-width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  :root {
+    --container-width: 95%;
+  }
+}
